@@ -41,3 +41,36 @@
     background-color: var(--primary-color);
     border: none;
   }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+   .movie {
+    width: 300px;
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 5px rgba(56, 142, 223, 0.2);
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+   }
+
+   .movie img {
+    width: 100%;
+   }
+
+   .movie-info {
+    color: var(--fav-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:0.2rem;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-family: inherit;
+  }
