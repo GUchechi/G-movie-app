@@ -3,6 +3,7 @@
  :root{
     --primary-color: #000;
     --secondary-color: #131111;
+    --fav-color: rgb(59, 144, 241);
  }
 
 * {
@@ -24,7 +25,7 @@
 
  .search {
     background-color: transparent;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--fav-color);
     border-radius: 50px;
     font-family: inherit;
     padding: 0.5rem 1rem;
@@ -32,10 +33,11 @@
   }
 
   .search::placeholder{
-    color: blue;
+    color: var(--fav-color);
   }
 
   .search:focus{
     outline: none;
     background-color: var(--primary-color);
+    border: none;
   }
