@@ -6,7 +6,7 @@ const main = document.getElementById('main')
 const form = document.getElementById('form')
 const search = document.getElementById('search')
 const textEl = document.getElementById('text')
-const text = "Movie App made by<br />Godswill Uchechi 😎"
+const text = "Movie App made by <br /> Godswill Uchechi 😎😎😎"
 let idx = 1
 let speed = 100
 
