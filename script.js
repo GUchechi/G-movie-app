@@ -5,6 +5,24 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c
 const main = document.getElementById('main')
 const form = document.getElementById('form')
 const search = document.getElementById('search')
+const textEl = document.getElementById('text')
+const text = "Movie App made by Godswill Uchechi 😎"
+let idx = 1
+let speed = 100
+
+writeText()
+
+function writeText () {
+    textEl.innerHTML = text.slice(0, idx)
+
+    idx++
+
+    if( idx > text.length){
+        idx = 1
+    }
+
+    setTimeout(writeText, speed)
+}
 
 // Get initial movies
 getMovies(API_URL)
