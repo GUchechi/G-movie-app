@@ -14,7 +14,7 @@
     background-color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
      margin: 0;
-     overflow: hidden;
+     overflow: scroll;
   }
 
   header {
