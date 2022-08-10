@@ -19,10 +19,16 @@
   header {
     padding: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: var(--secondary-color);
   }
 
+  #text{
+    color: var(--fav-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 10px !important;
+   }
  .search {
     background-color: transparent;
     border: 2px solid var(--fav-color);
